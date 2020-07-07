@@ -2,12 +2,12 @@ import { atom, selector } from "recoil";
 
 export const todoListState = atom({
   key: 'todoListState',
-  default: JSON.parse(localStorage.getItem('todo')),
+  default: JSON.parse(localStorage.getItem('todo')) || [],
 });
 
 export const checkedItemIdState = atom({
   key: 'checkedItemIndexState',
-  default: JSON.parse(localStorage.getItem('todo')).length ? JSON.parse(localStorage.getItem('todo')).id : null,
+  default: JSON.parse(localStorage.getItem('todo')) ? JSON.parse(localStorage.getItem('todo')).id : null,
 });
 
 export const checkedItemState = selector({
