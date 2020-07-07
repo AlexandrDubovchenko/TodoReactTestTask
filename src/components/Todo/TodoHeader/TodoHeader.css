@@ -1,0 +1,15 @@
+.add_item_btn {
+  padding: 5px 15px;
+  border: none;
+  color: #fff;
+  background-color: cadetblue;
+}
+
+.add_item_input {
+  margin-right: 10px;
+  border: 0.5px solid darkgrey;
+  padding: 5px;
+}
+.todo_header {
+  margin-bottom: 10px;
+}

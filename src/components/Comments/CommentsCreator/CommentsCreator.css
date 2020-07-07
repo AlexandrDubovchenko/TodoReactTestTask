@@ -1,0 +1,13 @@
+.comments_creator {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.add_comment_btn {
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: #fff;
+}

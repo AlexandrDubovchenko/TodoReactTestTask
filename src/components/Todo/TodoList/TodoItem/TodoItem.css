@@ -1,0 +1,32 @@
+.todo_item {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  padding: 0 10px ;
+}
+
+.todo_item > p {
+  flex-grow: 5;
+}
+
+.todo_item_controls{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.todo_item_controls p {
+  border-radius: 30px;
+  width: 20px;
+  text-align: center;
+  background-color: cadetblue;
+  color: #fff;
+}
+
+.todo_item_controls button {
+  border: 1px solid red;
+  color: red;
+  background-color: transparent;
+  padding: 10px 20px;
+}

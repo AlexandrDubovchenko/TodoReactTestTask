@@ -1,0 +1,9 @@
+.comments_list {
+  width: 100%;
+}
+
+.comments_list li{
+  display: flex;
+  background-color: #ffff;
+  margin-bottom: 10px;
+}
